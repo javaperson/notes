@@ -45,5 +45,5 @@ git clone https://github.com/kumarnitin/RedisLive.git
 * http://localhost:8888/index.html
 
 ##警告
-1. monitor命令会大幅降低系统吞吐量[MONITOR]http://redis.io/commands/monitor
+1. monitor命令会大幅降低系统吞吐量[MONITOR](http://redis.io/commands/monitor)
 2. duration指定监控脚本运行的时间,在次期间monitor命令一直会被执行,并且每隔1s执行一次info命令
